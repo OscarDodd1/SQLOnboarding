@@ -6,20 +6,22 @@
 - Optional Commit 3 hash + message:
 
 ## Run evidence
-- Command run:
-- Terminal output pasted below:
+- Command run: "lesson2_create_table.py"
+- Terminal output pasted below: no output
 
 ## SQL/Python changes I made
-- 
+- I changed one of the names in the table and added another row.
 
 ## Error and fix
-- Error I hit:
-- How I fixed it:
+- Error I hit: table students has no column named favourite_subject
+- How I fixed it: added favourite_subject into the table creation
 
 ## Understanding check (answer in your own words)
 1. Why do we use `commit()`?
+- commit() pushes the data to the table.
 2. What does `PRIMARY KEY` mean?
 3. Why is `IF NOT EXISTS` useful when creating tables?
+- If there is already a table it wont overite it. The only time it can set the data is when it creates the table.
 
 ## Quality checklist
 - [ ] Script runs without unhandled errors

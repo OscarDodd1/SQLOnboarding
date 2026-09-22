@@ -2,11 +2,11 @@
 
 ## Commit evidence (minimum 2)
 - Commit 1 hash + message: 609c3be - initial repo push -Added lesson files
-- Commit 2 hash + message:
+- Commit 2 hash + message: 43dd4e5 - Completed Lesson 1
 - Optional Commit 3 hash + message:
 
 ## Run evidence
-- Command run (example: `python lesson1_connect.py`):
+- Command run (example: `python lesson1_connect.py`): "lesson1_connect.py"
 - Terminal output pasted below:
 Connects to the database file and creates one if there isnt, then it will close the connection
 If the file is deleted it creates a new one
