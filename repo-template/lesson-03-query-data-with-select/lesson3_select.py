@@ -8,7 +8,9 @@ cursor.execute("SELECT id, name, year_group, favourite_subject FROM students")
 
 rows = cursor.fetchall()
 
-for student_id, name, year_group, favourate_subject in rows:
-    print(f"{name} is in year {year_group}.")
+print(rows)
+
+for student_id, name, year_group, favourite_subject in rows:
+    print(f"{name} is in year {year_group}, and like's {favourite_subject}.")
 
 connection.close()
