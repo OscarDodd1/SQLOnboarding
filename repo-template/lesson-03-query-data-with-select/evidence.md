@@ -6,8 +6,11 @@
 - Optional Commit 3 hash + message:
 
 ## Run evidence
-- Command run:
+- Command run: lesson3_select.py
 - Terminal output pasted below:
+(1, 'Adrian', 10)
+(2, 'Leo', 11)
+(3, 'Leroy', 12)
 
 ## Typed-work confirmation
 - Briefly describe how you typed your changes step-by-step (including at least one pause to run and check output):
@@ -18,9 +21,9 @@
 - What actually happened:
 
 ## SQL/Python changes I made
-- Change 1:
+- Change 1: Added another column to get from cursor.execute()
 - Change 2:
-- Why these changes were mine (not just starter code):
+- Why these changes were mine (not just starter code): the favourite_subject column is from the previous lesson.
 
 ## Error and fix
 - Error I hit:

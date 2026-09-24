@@ -3,7 +3,8 @@
 ## Commit evidence (minimum 2)
 - Commit 1 hash + message: 9352112 - lesson 2
 -Finished lesson 2 script
-- Commit 2 hash + message:
+- Commit 2 hash + message: 349017f - finished lesson 2
+-Finished lesson 2
 - Optional Commit 3 hash + message:
 
 ## Run evidence

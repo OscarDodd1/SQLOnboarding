@@ -24,6 +24,7 @@ cursor.execute("DELETE FROM students")
 cursor.execute("INSERT INTO students (name, year_group, favourite_subject) VALUES (?, ?, ?)", ("Adrian", 10, "Math"))
 cursor.execute("INSERT INTO students (name, year_group, favourite_subject) VALUES (?, ?, ?)", ("Leo", 11, "English"))
 cursor.execute("INSERT INTO students (name, year_group, favourite_subject) VALUES (?, ?, ?)", ("Leroy", 12, "Software"))
+cursor.execute("INSERT INTO students (name, year_group, favourite_subject) VALUES (?, ?, ?)", ("Marton", 4382, "Software"))
 
 # Commit saves all changes made by INSERT/DELETE/CREATE statements.
 connection.commit()
